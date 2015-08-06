@@ -15,4 +15,6 @@ Init_Wnck3(void)
                     rb_ary_new3(3,0,1,0));
 
     Init_Wnck_Tasklist(RG_TARGET_NAMESPACE);
+    Init_Wnck_Screen(RG_TARGET_NAMESPACE);
+    Init_Wnck_Pager(RG_TARGET_NAMESPACE);
 }
